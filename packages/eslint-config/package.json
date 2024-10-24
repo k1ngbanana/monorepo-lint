@@ -1,17 +1,17 @@
 {
-  "name": "eslint-config",
+  "name": "@banana020/eslint-config",
   "type": "module",
   "version": "0.0.0",
   "description": "tsup(esbuild) build package template",
-  "author": "ice breaker <1324318532@qq.com>",
+  "author": "banana <k1ng_banana@qq.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonofmagic/monorepo-template.git",
+    "url": "git+https://github.com/k1ng_banana/monorepo-lint.git",
     "directory": "packages/bar"
   },
   "bugs": {
-    "url": "https://github.com/sonofmagic/monorepo-template/issues"
+    "url": "https://github.com/k1ng_banana/monorepo-lint/issues"
   },
   "keywords": [],
   "sideEffects": false,
@@ -41,5 +41,17 @@
     "main": "./dist/index.cjs",
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "defu": "^6.1.4",
+    "eslint-flat-config-utils": "^0.4.0",
+    "eslint-plugin-jsx-a11y": "^6.10.1",
+    "eslint-plugin-mdx": "3.1.5",
+    "eslint-plugin-tailwindcss": "3.17.5",
+    "eslint-plugin-vuejs-accessibility": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-tailwindcss": "^3.17.0"
   }
 }

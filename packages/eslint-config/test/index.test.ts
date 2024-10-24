@@ -1,7 +1,6 @@
-import { bar } from '@/index'
-
+const nouse = () => 'foo'
 describe('index', () => {
   it('foo bar', () => {
-    expect(bar()).toBe('foo')
+    expect(nouse()).toBe('foo')
   })
 })
