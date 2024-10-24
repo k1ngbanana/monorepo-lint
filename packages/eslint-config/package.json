@@ -1,5 +1,5 @@
 {
-  "name": "@banana020/eslint-config",
+  "name": "@banana_zrl/eslint-config",
   "type": "module",
   "version": "0.0.0",
   "description": "tsup(esbuild) build package template",
